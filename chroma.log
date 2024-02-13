@@ -1,0 +1,94 @@
+WARNING:  [12-02-2024 22:52:11] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+INFO:     [12-02-2024 22:52:12] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+DEBUG:    [12-02-2024 22:52:12] Starting component System
+DEBUG:    [12-02-2024 22:52:12] Starting component OpenTelemetryClient
+DEBUG:    [12-02-2024 22:52:12] Starting component SimpleAssignmentPolicy
+DEBUG:    [12-02-2024 22:52:12] Starting component SqliteDB
+DEBUG:    [12-02-2024 22:52:12] Starting component Posthog
+DEBUG:    [12-02-2024 22:52:12] Starting component LocalSegmentManager
+DEBUG:    [12-02-2024 22:52:12] Starting component SegmentAPI
+INFO:     [12-02-2024 22:52:12] Started server process [11732]
+INFO:     [12-02-2024 22:52:12] Waiting for application startup.
+INFO:     [12-02-2024 22:52:12] Application startup complete.
+INFO:     [12-02-2024 22:52:12] Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)
+WARNING:  [12-02-2024 22:54:22] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+INFO:     [12-02-2024 22:54:22] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+DEBUG:    [12-02-2024 22:54:22] Starting component System
+DEBUG:    [12-02-2024 22:54:22] Starting component OpenTelemetryClient
+DEBUG:    [12-02-2024 22:54:22] Starting component SimpleAssignmentPolicy
+DEBUG:    [12-02-2024 22:54:22] Starting component SqliteDB
+DEBUG:    [12-02-2024 22:54:22] Starting component Posthog
+DEBUG:    [12-02-2024 22:54:22] Starting component LocalSegmentManager
+DEBUG:    [12-02-2024 22:54:22] Starting component SegmentAPI
+INFO:     [12-02-2024 22:54:22] Started server process [5308]
+INFO:     [12-02-2024 22:54:22] Waiting for application startup.
+INFO:     [12-02-2024 22:54:22] Application startup complete.
+ERROR:    [12-02-2024 22:54:22] [Errno 10048] error while attempting to bind on address ('::1', 8000, 0, 0): only one usage of each socket address (protocol/network address/port) is normally permitted
+INFO:     [12-02-2024 22:54:22] Waiting for application shutdown.
+INFO:     [12-02-2024 22:54:22] Application shutdown complete.
+INFO:     [12-02-2024 22:54:35] ::1:49929 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+INFO:     [12-02-2024 22:54:35] ::1:49929 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+INFO:     [12-02-2024 22:54:47] ::1:49932 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+INFO:     [12-02-2024 22:56:46] ::1:49989 - "GET /api/v1/collections/ar_topics?tenant=default_tenant&database=default_database HTTP/1.1" 200
+DEBUG:    [12-02-2024 22:56:53] Starting component PersistentLocalHnswSegment
+INFO:     [12-02-2024 22:56:53] ::1:49989 - "POST /api/v1/collections/a3d46c32-75f7-4d30-bb99-8d6169e7a455/query HTTP/1.1" 200
+INFO:     [12-02-2024 23:37:45] ::1:50813 - "POST /api/v1/collections/a3d46c32-75f7-4d30-bb99-8d6169e7a455/query HTTP/1.1" 200
+INFO:     [12-02-2024 23:37:50] ::1:50813 - "POST /api/v1/collections/a3d46c32-75f7-4d30-bb99-8d6169e7a455/query HTTP/1.1" 200
+INFO:     [12-02-2024 23:37:55] ::1:50813 - "POST /api/v1/collections/a3d46c32-75f7-4d30-bb99-8d6169e7a455/query HTTP/1.1" 200
+INFO:     [12-02-2024 23:38:09] ::1:50813 - "POST /api/v1/collections/a3d46c32-75f7-4d30-bb99-8d6169e7a455/query HTTP/1.1" 200
+[33mWARNING[0m:  [13-02-2024 00:06:50] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [13-02-2024 00:06:50] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [13-02-2024 00:06:50] Starting component System
+[36mDEBUG[0m:    [13-02-2024 00:06:50] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [13-02-2024 00:06:50] Starting component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [13-02-2024 00:06:50] Starting component SqliteDB
+[36mDEBUG[0m:    [13-02-2024 00:06:50] Starting component Posthog
+[36mDEBUG[0m:    [13-02-2024 00:06:50] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [13-02-2024 00:06:50] Starting component SegmentAPI
+[32mINFO[0m:     [13-02-2024 00:06:50] Started server process [[36m7016[0m]
+[32mINFO[0m:     [13-02-2024 00:06:50] Waiting for application startup.
+[32mINFO[0m:     [13-02-2024 00:06:50] Application startup complete.
+[31mERROR[0m:    [13-02-2024 00:06:50] [Errno 10048] error while attempting to bind on address ('::1', 8000, 0, 0): only one usage of each socket address (protocol/network address/port) is normally permitted
+[32mINFO[0m:     [13-02-2024 00:06:50] Waiting for application shutdown.
+[32mINFO[0m:     [13-02-2024 00:06:50] Application shutdown complete.
+INFO:     [13-02-2024 00:06:51] ::1:52000 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+INFO:     [13-02-2024 00:06:51] ::1:52000 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+INFO:     [13-02-2024 00:06:51] ::1:52001 - "GET /api/v1/collections/ar_topics?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[33mWARNING[0m:  [13-02-2024 00:09:59] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [13-02-2024 00:09:59] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [13-02-2024 00:09:59] Starting component System
+[36mDEBUG[0m:    [13-02-2024 00:09:59] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [13-02-2024 00:09:59] Starting component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [13-02-2024 00:09:59] Starting component SqliteDB
+[36mDEBUG[0m:    [13-02-2024 00:09:59] Starting component Posthog
+[36mDEBUG[0m:    [13-02-2024 00:09:59] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [13-02-2024 00:09:59] Starting component SegmentAPI
+[32mINFO[0m:     [13-02-2024 00:09:59] Started server process [[36m2660[0m]
+[32mINFO[0m:     [13-02-2024 00:09:59] Waiting for application startup.
+[32mINFO[0m:     [13-02-2024 00:09:59] Application startup complete.
+[31mERROR[0m:    [13-02-2024 00:09:59] [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8000): only one usage of each socket address (protocol/network address/port) is normally permitted
+[32mINFO[0m:     [13-02-2024 00:09:59] Waiting for application shutdown.
+[32mINFO[0m:     [13-02-2024 00:09:59] Application shutdown complete.
+INFO:     [13-02-2024 00:10:00] ::1:52415 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+INFO:     [13-02-2024 00:10:00] ::1:52415 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+INFO:     [13-02-2024 00:10:00] ::1:52416 - "GET /api/v1/collections/ar_topics?tenant=default_tenant&database=default_database HTTP/1.1" 200
+INFO:     [13-02-2024 00:10:14] ::1:52416 - "POST /api/v1/collections/a3d46c32-75f7-4d30-bb99-8d6169e7a455/query HTTP/1.1" 200
+[33mWARNING[0m:  [13-02-2024 00:14:03] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [13-02-2024 00:14:04] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [13-02-2024 00:14:04] Starting component System
+[36mDEBUG[0m:    [13-02-2024 00:14:04] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [13-02-2024 00:14:04] Starting component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [13-02-2024 00:14:04] Starting component SqliteDB
+[36mDEBUG[0m:    [13-02-2024 00:14:04] Starting component Posthog
+[36mDEBUG[0m:    [13-02-2024 00:14:04] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [13-02-2024 00:14:04] Starting component SegmentAPI
+[32mINFO[0m:     [13-02-2024 00:14:04] Started server process [[36m11008[0m]
+[32mINFO[0m:     [13-02-2024 00:14:04] Waiting for application startup.
+[32mINFO[0m:     [13-02-2024 00:14:04] Application startup complete.
+[31mERROR[0m:    [13-02-2024 00:14:04] [Errno 10048] error while attempting to bind on address ('::1', 8000, 0, 0): only one usage of each socket address (protocol/network address/port) is normally permitted
+[32mINFO[0m:     [13-02-2024 00:14:04] Waiting for application shutdown.
+[32mINFO[0m:     [13-02-2024 00:14:04] Application shutdown complete.
+INFO:     [13-02-2024 00:14:04] ::1:52565 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+INFO:     [13-02-2024 00:14:04] ::1:52565 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+INFO:     [13-02-2024 00:14:04] ::1:52566 - "GET /api/v1/collections/ar_topics?tenant=default_tenant&database=default_database HTTP/1.1" 200
+INFO:     [13-02-2024 00:14:49] ::1:52627 - "POST /api/v1/collections/a3d46c32-75f7-4d30-bb99-8d6169e7a455/query HTTP/1.1" 200
