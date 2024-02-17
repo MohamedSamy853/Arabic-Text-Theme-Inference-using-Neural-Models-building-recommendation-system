@@ -31,4 +31,6 @@ To use the application:
 - [NMF Model Results](https://github.com/MohamedSamy853/Arabic-Text-Theme-Inference-using-Neural-Models-building-recommendation-system/blob/main/results/nmf/)
 - [Truncated SVD Model Results](https://github.com/MohamedSamy853/Arabic-Text-Theme-Inference-using-Neural-Models-building-recommendation-system/blob/main/results/truncated_svd/)
 - [BERTopic Visualization](https://github.com/MohamedSamy853/Arabic-Text-Theme-Inference-using-Neural-Models-building-recommendation-system/blob/main/figs/topic_visualization.html)
+## demo video
+[Watch the video](https://github.com/MohamedSamy853/Arabic-Text-Theme-Inference-using-Neural-Models-building-recommendation-system/blob/main/screen-capture.mp4)
 
